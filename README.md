@@ -3,7 +3,7 @@ gitscripts
 
 Some simple Git bash scripts to make life just a little easier. Why? Because I'm so lazy.
 
-How to use:
+##### How to use:
 
 On my mac I've done the following steps to use these scripts:
 
@@ -31,7 +31,7 @@ On my mac I've done the following steps to use these scripts:
 
 With that you should be all set. 
 
-To test things out:
+##### To test things out:
 
 1) Open a terminal window.
 2) Try running this command.
