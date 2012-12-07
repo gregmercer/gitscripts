@@ -15,7 +15,6 @@ On my mac I've done the following steps to use these scripts:
 
 4. Add these lines to your bashrc file
 
-## git scripts
 alias gitstat="sh gitstat.sh"
 alias gitnewbranch="sh gitnewbranch.sh"
 alias gitnewtag="sh gitnewtag.sh"
