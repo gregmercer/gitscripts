@@ -40,10 +40,12 @@ To test things out:
 
 If everything is setup right, what you get back should look something like this:
 
-> gregs-mac:gsb-distro$ gitstat
-> # On branch gsb_feature_club
-> nothing to commit (working directory clean)
-> gregs-mac:gsb-distro$ 
+```
+gregs-mac:gsb-distro$ gitstat
+# On branch gsb_feature_club
+nothing to commit (working directory clean)
+gregs-mac:gsb-distro$ 
+```
 
 There you have it. Enjoy !!
 
