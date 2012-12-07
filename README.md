@@ -40,6 +40,7 @@ With that you should be all set.
 ---
 
 1) Open a terminal window.
+
 2) Try running this command.
 
 ```
