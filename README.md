@@ -17,20 +17,22 @@ On my mac I've done the following steps to use these scripts:
 4) Add these lines to your bashrc file
 
 ```
-> alias gitstat="sh gitstat.sh"
-> alias gitnewbranch="sh gitnewbranch.sh"
-> alias gitnewtag="sh gitnewtag.sh"
-> alias gitdeltag="sh gitdeltag.sh"
-> alias gitcommit="sh gitcommit.sh"
-> 
-> PATH=~/Scripts/:$PATH
-> export PATH
+alias gitstat="sh gitstat.sh"
+alias gitnewbranch="sh gitnewbranch.sh"
+alias gitnewtag="sh gitnewtag.sh"
+alias gitdeltag="sh gitdeltag.sh"
+alias gitcommit="sh gitcommit.sh"
+ 
+PATH=~/Scripts/:$PATH
+export PATH
 ```
 
 5) Run the following in your terminal:
 
-> cd /etc
-> . bashrc
+```
+cd /etc
+. bashrc
+```
 
 With that you should be all set. 
 
@@ -40,7 +42,9 @@ With that you should be all set.
 1) Open a terminal window.
 2) Try running this command.
 
-> gitstat
+```
+gitstat
+```
 
 If everything is setup right, what you get back should look something like this:
 
