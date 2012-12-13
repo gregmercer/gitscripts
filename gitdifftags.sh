@@ -1,3 +1,9 @@
+#!/bin/bash
 
+echo -n "Older Tag Name: "
+read -e OLDTAG
 
-git diff 20121206 20121213 --stat
+echo -n "Newer Tag Name: "
+read -e NEWTAG
+
+git diff $OLDTAG $NEWTAG --stat
